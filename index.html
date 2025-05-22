@@ -15,6 +15,23 @@
             color: #fff;
             padding: 1rem 0;
             text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .header-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            background: #fff;
+            border: 2px solid #ccc;
         }
         nav {
             margin: 1rem 0;
@@ -27,6 +44,14 @@
         }
         section {
             padding: 2rem;
+        }
+        section p, section ul {
+            background: #fafbfc;
+            border: 1.5px solid #e0e0e0;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+            padding: 1rem 1.5rem;
+            margin-bottom: 1.5rem;
         }
         footer {
             background: #333;
@@ -41,8 +66,11 @@
 </head>
 <body>
     <header>
-        <h1>Michael Essex</h1>
-        <p>Welcome to my portfolio</p>
+        <img src="img/HeadshotOfMegreyBackground.png" alt="Michael Essex Headshot" class="header-img">
+        <div class="header-content">
+            <h1>Michael Essex</h1>
+            <p>Welcome to my portfolio</p>
+        </div>
     </header>
 
     <nav>
