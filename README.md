@@ -4,6 +4,9 @@
 
 Welcome to my developer portfolio. I specialize in front-end web and mobile development, with a focus on creating user-friendly, responsive, and functional apps. My experience includes hands-on work with **React**, **Expo (React Native)**, **Firebase**, and **SEO/UX consulting**. I’m passionate about building real-world solutions, streamlining user journeys, and making technology more intuitive for clients.
 
+
+fff
+
 ---
 
 ## Featured Projects
